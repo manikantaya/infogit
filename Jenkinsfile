@@ -31,8 +31,7 @@ pipeline {
 		
 	stage ('Deploy Stage') {
             steps {
-        	    sh 'cp ./target/demo-0.0.1-SNAPSHOT.war /home/infogain/tomcat9/webapps/.'
-                		
+        	    sh 'cp ./target/demo-0.0.1-SNAPSHOT.war /home/infogain/tomcat9/webapps/.'                		
             }
         }
     }
